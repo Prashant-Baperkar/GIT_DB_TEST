@@ -4,6 +4,6 @@ select * from DimBranch
 
 select * from DimSourceDB_Mod
 select * from DIMSOURCEDB
-
+where SourceAlt_Key=1
 
 
