@@ -1,8 +1,10 @@
-use RBL_MISDB_PROD
 
-select * from DimBranch
+create PROCEDURE DIMSOURCEDB_test
+as
+BEGIN
 
-select * from DimSourceDB_Mod
 select * from DIMSOURCEDB
 where SourceAlt_Key=2
+
+end
 
